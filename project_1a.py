@@ -1,4 +1,4 @@
-# 3000 iterations with loss = 0.064, the original is 6000 iterations with loss = 0.074, actually I did this for high speed for adaptation, but the accuracy is only slightly lower than the original :)
+# 3000 iterations with loss = 0.064 (x2 better), the original is 6000 iterations with loss = 0.074, actually I did this for high speed for adaptation, but the accuracy is only slightly lower than the original :)
 
 # import thư viện :
 import numpy as np
@@ -147,4 +147,5 @@ for iteration in range(niterations):
 
 
         
+
 
