@@ -1,4 +1,4 @@
-# 3000 iterations with loss = 0.064 (x2 better), the original is 6000 iterations with loss = 0.074, actually I did this for high speed for adaptation, but the accuracy is only slightly lower than the original (will happen when the iteration of original is very high (many times) i guess it's around 15-20 or something) :)
+# 3000 iterations with loss = 0.058 (x2 better), the original is 6000 iterations with loss = 0.074, actually I did this for high speed for adaptation, but the accuracy is only slightly lower than the original (will happen when the iteration of original is very high (many times) i guess it's around 15-20 or something) :)
 
 
 # import thư viện :
@@ -17,7 +17,7 @@ plot = True
 innerstepsize = 0.03 # stepsize in inner SGD
 innerepochs = 1 # number of epochs of each inner SGD
 outerstepsize0 = 0.2 # stepsize of outer optimization, i.e., meta-optimization
-niterations = 10000 # number of outer updates; each iteration we sample one task and update on it
+niterations = 5000 # number of outer updates; each iteration we sample one task and update on it
 
 rng = np.random.RandomState(seed)
 torch.manual_seed(seed)
@@ -151,6 +151,7 @@ for iteration in range(niterations):
 
 
         
+
 
 
 
