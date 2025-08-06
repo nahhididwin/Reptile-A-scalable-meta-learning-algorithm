@@ -1,4 +1,4 @@
-# 3000 iterations with loss = 0.058 (x2 better), the original is 6000 iterations with loss = 0.074, actually I did this for high speed for adaptation, but the accuracy is only slightly lower than the original (will happen when the iteration of original is very high (many times) i guess it's around 15-20 or something) :)
+# 3000 iterations with loss = 0.058 (x2 better), the original is 6000 iterations with loss = 0.074, actually I did this for high speed for adaptation, but the accuracy is only slightly lower than the original (will happen when the iteration of original is very high (many times) i guess it's around 8-15 or something) :)
 
 
 # import thư viện :
@@ -151,6 +151,7 @@ for iteration in range(niterations):
 
 
         
+
 
 
 
